@@ -1,13 +1,11 @@
 package com.example.task1
 
-// It's good practice to start with an empty list of courses.
 class Student(
     name: String,
     age: Int,
     val courses: MutableList<CourseRecord> = mutableListOf()
 ) : Human(name, age) {
 
-    // This function will now work correctly.
     fun addCourse(course: CourseRecord) {
         courses.add(course)
     }
