@@ -80,3 +80,35 @@ class Kahvinkeitin(
         return "Keitin: ${vetta}/${maxVesi} vettä, ${kahvia}/${maxKahvi} kahvia on ${if (power) "päällä" else "kiinni"}"
     }
 }
+
+//Keitin: 0/300 vett�, 0/100 kahvia on kiinni
+//Keitin: 300/300 vett�, 100/100 kahvia on kiinni
+//espressoja: 6
+//tavallisia: 1
+//tee espresso: false
+//Keitin: 300/300 vett�, 100/100 kahvia on kiinni
+//tee tavallinen kahvi: true
+//Keitin: 100/300 vett�, 85/100 kahvia on p��ll�
+//tee espresso: true
+//Keitin: 70/300 vett�, 69/100 kahvia on p��ll�
+//tee espresso: true
+//Keitin: 40/300 vett�, 53/100 kahvia on p��ll�
+//tee espresso: true
+//Keitin: 10/300 vett�, 37/100 kahvia on p��ll�
+//tee espresso: false
+//Keitin: 10/300 vett�, 37/100 kahvia on p��ll�
+//tee espresso: false
+//Keitin: 10/300 vett�, 37/100 kahvia on p��ll�
+//espressoja: 0
+//tavallisia: 0
+//Keitin: 300/300 vett�, 37/100 kahvia on p��ll�
+//tee espresso: true
+//Keitin: 270/300 vett�, 21/100 kahvia on p��ll�
+//tee espresso: true
+//Keitin: 240/300 vett�, 5/100 kahvia on p��ll�
+//tee espresso: false
+//Keitin: 240/300 vett�, 5/100 kahvia on p��ll�
+//tee espresso: false
+//Keitin: 240/300 vett�, 5/100 kahvia on p��ll�
+//tee espresso: false
+//Keitin: 240/300 vett�, 5/100 kahvia on p��ll�
